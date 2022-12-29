@@ -4,12 +4,9 @@ import Menu from './components/menu'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Menu />
-        <p>
-          Hi Folks! we have started our internship learning project
-        </p>
-      </header>
+    <header className="App-header">
+                    <Menu/>        
+          </header>
     </div>
   );
 }

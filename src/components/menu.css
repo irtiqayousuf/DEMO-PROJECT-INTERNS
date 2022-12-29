@@ -1,4 +1,32 @@
 nav {
-    background-color: #fff;
+    background-color: azure;
     color  : #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+li a:hover {
+    background-color: #333;
+    color: azure;
+  }
+  li{  
+    float: left; 
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-decoration: none;
+    }
+  

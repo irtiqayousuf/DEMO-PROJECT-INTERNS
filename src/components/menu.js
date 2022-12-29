@@ -1,18 +1,22 @@
 import  './menu.css'
 
+
 function Menu() {
     return(
         <div>
             <nav>
                 <ul>
                     <li>
-                        <a>Home1</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a>About1</a>
+                        <a href="/">About</a>
                     </li>
                     <li>
-                        <a>Contact Us</a>
+                        <a href="/">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="/">Explore</a>
                     </li>
                 </ul>
             </nav>
